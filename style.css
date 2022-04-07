@@ -1,0 +1,148 @@
+body{
+    margin:0;
+   padding:0; 
+   background-image : url();
+   -webkit-background-size: cover;
+   background-size: cover;
+   font-family:poppins;
+}
+.wrapper input{
+    width:800px;
+    margin-bottom: 20px;
+
+}
+/* .wrapper input[type="text"],.wrapper input[type="Password"]{ 
+ border: none;
+ border-bottom: 1px solid #ddd;
+ background: transparent;
+ outline: none;
+ height: 30px;
+ font-size: 16px;
+ opacity: 1;
+ color: #ccc
+
+} */
+/* .wrapper input{
+    width: 100%;
+    margin-bottom: 20px; 
+ } */
+h1{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    font: size 22px;
+    color: black;
+    text-align: center;
+    margin: bottom 8%;
+    font-family: courgette;
+
+}
+.wrapper input[type="text"],.wrapper input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background:transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: #ccc;
+
+}
+.wrapper input[type="Submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f6648b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.wrapper input[type="Submit"]:hover{
+    cursor: pointer;
+}
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+
+
+}
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+
+}
+.bottom-text{
+    color: #fff;
+
+}
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+.bottom-text a{
+    float: right;
+
+}
+.socials{
+    margin-top:12%;
+    text-align: center;
+
+}
+.wrapper{
+    /* box-shadow: 20px sold grey; */
+    /* box-sizing: border-box; */
+    padding-top: 12%;
+    text-align: center;
+    border: 5px solid black;
+    width: 1000px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius:50%;
+    margin: 0.5px ;
+
+}
+.socials a:nth-child(1){
+    background:#3b5998;
+
+}
+.socials a:nth-child(2){
+    background:#55acee;
+    
+}
+.socials a:nth-child(3){
+    background:#bd081c;
+    
+}
+.socials a:nth-child(4){
+    background:#0077b5;
+    
+}
+.socials a i{
+    padding: 8px 0px;
+
+}
+#overlay-area{
+    position: absolute;
+    background-color: rgba(156,0,0,0.5);
+    z-index: -4;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+
+
+
+
